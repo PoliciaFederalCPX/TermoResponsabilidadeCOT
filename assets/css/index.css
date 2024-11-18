@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: black;
+    color: white;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+}
+.termo {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.termo p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+.imagens {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.imagens img {
+    height: 120px;  
+    width: auto;   
+    margin: 10px;
+}
+form {
+    margin-top: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+input[type="text"], input[type="radio"] {
+    margin-right: 10px;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type="radio"] {
+    transform: scale(1.5);  
+}
+.concorda label {
+    font-size: 20px;  
+}
+button {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:hover {
+    background-color: #45a049;
+}
+.concorda {
+    margin-top: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #fff;
+}
+footer p {
+    margin: 5px;
+    font-size: 14px;
+}
