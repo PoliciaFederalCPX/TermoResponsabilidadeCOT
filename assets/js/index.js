@@ -10,7 +10,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
         alert("Termo de Responsabilidade enviado com sucesso! Boa reprovação no COTAR!");
 
         var message = {
-            content: '``` ```\n** # <:COT:1162252748335624202> Termo de Responsabilidade Preenchido**\n\n**QRA:** ' + qra + '\n**ID:** ' + id + '\n**Concorda com o Termo:** Sim\n'
+            content: '``` ```\n** # <:COT:1162252748335624202> Termo de Responsabilidade Preenchido**\n**QRA:** ' + qra + '\n**ID:** ' + id + '\n**Concorda com o Termo:** Sim\n'
         };
 
         
